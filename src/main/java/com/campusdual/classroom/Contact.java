@@ -113,7 +113,7 @@ public class Contact implements ICallActions {
 
     public void setSurnames(String surnames) {
         this.surnames = surnames;
-        this.code = generateCode();
+
     }
 
     public String getPhone() {
